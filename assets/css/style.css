@@ -1143,11 +1143,11 @@ img {
 }
 
 .item-bg1 {
-    background-image: url(../images/home-one/home-one-img1.jpg)
+    background-image: url(../images/slider/one.jpg)
 }
 
 .item-bg2 {
-    background-image: url(../images/home-one/home-one-img2.jpg)
+    background-image: url(../images/slider/two.jpg)
 }
 
 .item-bg3 {
@@ -2756,6 +2756,9 @@ img {
 
 .case-study-item a img {
     border-radius: 5px
+}
+.case-study-item a img {
+    height: 200px;
 }
 
 .case-study-item .content {
