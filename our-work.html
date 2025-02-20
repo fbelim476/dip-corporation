@@ -26,7 +26,53 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
     <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-    <title>our work | DIP Corporation</title>  </head>
+    <title>Gallery | DIP Corporation</title>
+    <style>
+      .gallery-title {
+        font-size: 36px;
+        color: #42b32f;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 70px;
+      }
+      .gallery-title:after {
+        content: "";
+        position: absolute;
+        width: 7.5%;
+        left: 46.5%;
+        height: 45px;
+        border-bottom: 1px solid #5e5e5e;
+      }
+      .filter-button {
+        font-size: 18px;
+        border: 1px solid #070b3b;
+        border-radius: 5px;
+        text-align: center;
+        color: #070b3b;
+        margin-bottom: 30px;
+      }
+      .filter-button:hover {
+        font-size: 18px;
+        border: 1px solid #070b3b;
+        border-radius: 5px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #070b3b;
+      }
+      .btn-default:active .filter-button:active {
+        background-color: #070b3b;
+        color: white;
+      }
+
+      .port-image {
+        width: 100%;
+      }
+
+      .gallery_product {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
   <body>
     <div class="preloader">
       <div class="d-table">
@@ -109,7 +155,7 @@
             >
               <ul class="navbar-nav m-auto">
                 <li class="nav-item">
-                  <a href="index.html" class="nav-link "> Home </a>
+                  <a href="index.html" class="nav-link"> Home </a>
                 </li>
                 <li class="nav-item">
                   <a href="about.html" class="nav-link"> About Us </a>
@@ -118,7 +164,7 @@
                   <a href="products.html" class="nav-link"> Our Products </a>
                 </li>
                 <li class="nav-item">
-                  <a href="our-work.html" class="nav-link active"> Our Work </a>
+                  <a href="our-work.html" class="nav-link active"> Gallery </a>
                 </li>
                 <li class="nav-item">
                   <a href="our-client.html" class="nav-link"> Our Client </a>
@@ -178,7 +224,6 @@
       </div>
     </div>
 
-
     <div class="search-overlay">
       <div class="d-table">
         <div class="d-table-cell">
@@ -206,7 +251,7 @@
     <div class="inner-banner">
       <div class="container">
         <div class="inner-title text-center">
-          <h3>Our Work</h3>
+          <h3>Our Gallery</h3>
           <ul>
             <li>
               <a href="index.html">Home</a>
@@ -214,7 +259,7 @@
             <li>
               <i class="bx bx-chevrons-right"></i>
             </li>
-            <li>Our Work</li>
+            <li>Our Gallery</li>
           </ul>
         </div>
       </div>
@@ -222,81 +267,108 @@
         <img src="assets/images/shape/inner-shape.png" alt="Images" />
       </div>
     </div>
+    
+    <!------ Include the above in your HEAD tag ---------->
 
     <div class="security-area pt-100 pb-70">
-      <div class="container">
-        <div class="section-title text-center">
-          <span class="sp-color2">CCTV & Security Solutions</span>
-          <h2>
-            Looking for Reliable Security? We Provide Advanced Surveillance
-            Solutions
-          </h2>
+    <div class="container">
+      <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <!-- <h1 class="gallery-title">Gallery</h1> -->
         </div>
-        <div class="row pt-45">
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-cyber-security"></i>
-              <h3><a href="case-details.html">Commercial Security</a></h3>
-              <p>
-                Secure your business with our advanced CCTV surveillance, access
-                control, and intrusion detection systems designed for maximum
-                protection.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-computer"></i>
-              <h3><a href="case-details.html">Residential Security</a></h3>
-              <p>
-                Protect your home with high-definition CCTV cameras, smart
-                alarms, and video door phones for 24/7 monitoring and safety.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-effective"></i>
-              <h3><a href="case-details.html">Networking & Connectivity</a></h3>
-              <p>
-                We provide reliable LAN and wireless networking solutions for
-                seamless connectivity in homes, offices, and commercial spaces.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-implement"></i>
-              <h3><a href="case-details.html">Access Control Systems</a></h3>
-              <p>
-                Manage entry points efficiently with biometric, RFID, and
-                keypad-based access control systems for secure environments.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-consulting"></i>
-              <h3><a href="case-details.html">Fire & Intrusion Alarms</a></h3>
-              <p>
-                Get early warnings and prevent potential hazards with our
-                advanced fire and intrusion alarm systems for homes and
-                businesses.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="security-card">
-              <i class="flaticon-consultant"></i>
-              <h3><a href="case-details.html">24/7 Monitoring & Support</a></h3>
-              <p>
-                Ensure continuous security with our remote monitoring services
-                and dedicated technical support for complete peace of mind.
-              </p>
-            </div>
-          </div>
+
+        <div align="center">
+          <button class="btn btn-default filter-button" data-filter="all">
+            All
+          </button>
+          <button class="btn btn-default filter-button" data-filter="hdpe">
+            category 1
+          </button>
+          <button class="btn btn-default filter-button" data-filter="sprinkle">
+            category 2
+          </button>
+          <button class="btn btn-default filter-button" data-filter="spray">
+            category 3
+          </button>
+          <button class="btn btn-default filter-button" data-filter="irrigation">
+            category 4
+          </button>
+        </div>
+        <br />
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
+        </div>
+
+        <div
+          class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle"
+        >
+          <img src="http://fakeimg.pl/365x365/" class="img-responsive" />
         </div>
       </div>
+    </div>
     </div>
 
     <footer class="footer-area footer-bg">
@@ -332,29 +404,41 @@
                 <h3>Services</h3>
                 <ul class="footer-list">
                   <li>
-                    <a href="https://www.google.com/search?q=CCTV+installation" target="_blank">
-                        <i class="bx bx-chevron-right"></i>
-                        CCTV Installation
+                    <a
+                      href="https://www.google.com/search?q=CCTV+installation"
+                      target="_blank"
+                    >
+                      <i class="bx bx-chevron-right"></i>
+                      CCTV Installation
                     </a>
-                </li>
-                <li>
-                    <a href="https://www.google.com/search?q=Remote+Monitoring" target="_blank">
-                        <i class="bx bx-chevron-right"></i>
-                        Remote Monitoring
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.google.com/search?q=Remote+Monitoring"
+                      target="_blank"
+                    >
+                      <i class="bx bx-chevron-right"></i>
+                      Remote Monitoring
                     </a>
-                </li>
-                <li>
-                    <a href="https://www.google.com/search?q=System+Maintenance" target="_blank">
-                        <i class="bx bx-chevron-right"></i>
-                        System Maintenance
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.google.com/search?q=System+Maintenance"
+                      target="_blank"
+                    >
+                      <i class="bx bx-chevron-right"></i>
+                      System Maintenance
                     </a>
-                </li>
-                <li>
-                    <a href="https://www.google.com/search?q=Access+Control" target="_blank">
-                        <i class="bx bx-chevron-right"></i>
-                        Access Control
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.google.com/search?q=Access+Control"
+                      target="_blank"
+                    >
+                      <i class="bx bx-chevron-right"></i>
+                      Access Control
                     </a>
-                </li>                
+                  </li>
                 </ul>
               </div>
             </div>
@@ -447,5 +531,31 @@
     <script src="assets/js/contact-form-script.js"></script>
 
     <script src="assets/js/custom.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".filter-button").click(function () {
+          var value = $(this).attr("data-filter");
+
+          if (value == "all") {
+            //$('.filter').removeClass('hidden');
+            $(".filter").show("1000");
+          } else {
+            //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+            //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter")
+              .not("." + value)
+              .hide("3000");
+            $(".filter")
+              .filter("." + value)
+              .show("3000");
+          }
+        });
+
+        if ($(".filter-button").removeClass("active")) {
+          $(this).removeClass("active");
+        }
+        $(this).addClass("active");
+      });
+    </script>
   </body>
 </html>
